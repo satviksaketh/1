@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indoor Games Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Court Booking System -->
+    <section id="booking" style="background-color: rgb(85, 170, 255);">
+        <h1 style="color: black;">Book a Court</h1>
+        <form>
+            <label for="gameSelect">Select Court:</label>
+            <select id="gameSelect" required>
+                <option value="badminton">Synthetic Court</option>
+                <option value="tabletennis">Wooden Court</option>
+            </select>
+            <label for="dateSelect">Select Date:</label>
+            <input type="date" id="dateSelect" required>
+            <label for="timeSelect">Select Time:</label>
+            <input type="time" id="timeSelect" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    <div id="img">
+        <img src="images/c1.jpg" alt="image">
+        <img src="images/b2.jpg" alt="image">
+        <img src="images/c.jpg" alt="image">
+        <img src="images/b1.jpg" alt="image">
+    </div>
+</body>
+
+</html>
